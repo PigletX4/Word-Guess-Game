@@ -3,12 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Seinfeld Word Guess</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
 </head>
+
 <body>
     
+    <div class="container">
+        <img id="logo" src="assets/images/Seinfeld_English_logo.png">
+        <h1 id="logobanner">Word Guess</h1>
+    </div>
+
+    <div class="gameContainer">
+
+        <div class="Scoreboard">
+            
+            <p id="wordspace"> _ _ _ _ _ _ _ </p>
+            <p id="input">You clicked  </p>
+
+        </div>
+
+        <div class="Inputs">
+           
+            <p id="score">Score: </p>
+            <p id="tries">You have 15 tries left!</p>
+            <p id="guesses">Previous guesses: </p>
+        
+        </div>
+
+    </div>
+
 </body>
+
 </html>
