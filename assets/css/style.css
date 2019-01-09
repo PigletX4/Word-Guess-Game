@@ -16,6 +16,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    display: flex;
 }
 
 #logo{
@@ -39,7 +40,7 @@ body{
 }
 
 .Scoreboard{
-    height: 200px;
+    height: 220px;
     width: 500px;
     border-style: inset;
     border-color: silver;
@@ -50,27 +51,41 @@ body{
 }
 
 .Inputs{
-    height: 250px;
-    width: 500px;
+    height: 290px;
+    width: 350px;
     border-color: silver;
     border-style: inset;
     background-color: rgba(10, 10, 10, 0.9);
     border-width: 10px;
     margin-top: 10px;
     text-align: center;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
 
 
 }
 
-#score, #input, #wordspace{
+#score, #youClicked, #wordSpace{
     font-size: xx-large;
     color: darkgoldenrod;
     font-weight: bold;
 }
 
-#tries, #guesses{
+#tries, #guesses, #whatYouClicked{
     font-size: xx-large;
     font-family: fantasy;
     color: darkgoldenrod;
+
+}
+
+#scoreText, #triesText{
+    font-size: x-large;
+    font-family: fantasy;
+    color: darkgoldenrod;
+}
+
+#whatYouClicked{
+    margin-bottom: 2px;
 }
 
